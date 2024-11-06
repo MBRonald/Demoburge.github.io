@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- swiper cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo"> TopBurger</a>
+
+        <nav class="navbar">
+            <a href="#home">Inicio</a>
+            <a href="#special">Especialidad</a>
+            <a href="#about">Nosotros</a>
+            <a href="#menu">menu</a>
+            <a href="#dessert">postres</a>
+            
+            <a href="#order">Contacto</a>
+        </nav>
+    
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div ass="fas fa-shopping-cart"cl id="cart-btn"></div>
+        </div>
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/cart1.png" alt="">
+                <div class="content">
+                    <h3>cheese burger</h3>
+                    <span class="price"> $11.99/-</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/cart2.png" alt="">
+                <div class="content">
+                    <h3>steak burger</h3>
+                    <span class="price"> $11.99/-</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/cart3.png" alt="">
+                <div class="content">
+                    <h3>classic burger</h3>
+                    <span class="price"> $11.99/-</span>
+                </div>
+            </div>
+
+            <div class="total">total: $50.99</div>
+            <a href="#" class="btn"> check out</a>
+
+        </div>
+
+    </header>
+
+    <!-- header end -->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url(images/slider1_bg.jpg) no-repeat;">
+                    <div class="content">
+                        <img src="images/slider_icons.png" alt="">
+                        <h3>Pide tu <br> <span>deliveri</span> ya! </h3>
+                        
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/slider2_bg.jpg) no-repeat;">
+                    <div class="content">
+                        <img src="images/slider_icons.png" alt="">
+                        <h3>Ordena <br> <span>tu</span> hamburgueza </h3>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- home end -->
+
+    <!-- speciality -->
+
+    <section class="special" id="special">
+
+        <h1 class="heading">Nuestra <span> especialidad</span></h1>
+
+        <div class="box-container">
+
+            
+            <div class="box">
+                <img src="images/special2.jpg" alt="">
+                <h3>Hamburgueza simple</h3>
+                <p>Acompañado de una gaseosa vazo pequeña y sus papas.Una hamburguesa sencilla con carne jugosa, queso derretido y papas fritas crujientes. Acompañada de un vaso pequeño de soda refrescante y burbujeante. </p>
+                <div class="price">Bs25.00 <span>Bs30.00</span></div>
+                
+            </div>
+
+            <div class="box">
+                <img src="images/special1.jpg" alt="">
+                <h3>Hamburgueza extra grande</h3>
+                <p>Acompañado de una gaseosa vazo grande y sus papas.Una hamburguesa de doble carne jugosa, queso derretido, bacon crujiente, lechuga fresca, tomate y cebolla. </p>
+                <div class="price">Bs45.00 <span>Bs56.00</span></div>
+                
+            </div>
+
+            
+
+        </div>
+
+    </section>
+
+    <!-- speciality end-->
+
+    <!-- about us -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>Sobre </span> nosotros</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/about2.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <span>Bienvenido a nuestra tienda</span>
+                <h3>que abrió sus puertas en 2022</h3>
+                <p>ofreciendo una experiencia única para los amantes de la buena comida.</p>
+                <p>Además, cuentan con suculentos lomitos, servidos con un toque especial que realza su sabor. Para los más golosos, su selección de postres caseros.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- about us end-->
+
+    <!-- menu -->
+
+    <section class="menu" id="menu">
+
+        <h1 class="heading"> Nuestro <span>menu</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/menu1.jpg" alt="">
+                <h3>hamburguesa con queso doble</h3>
+               
+                <div class="price">Bs18.00 <span>Bs23.00</span></div>
+                <a href="#" class="btn"> Encargar</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu2.jpg" alt="">
+                <h3>hamburguesa con queso azul</h3>
+                
+                <div class="price">Bs17.00 <span>Bs24.00</span></div>
+                <a href="#" class="btn"> Encargar</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu3.jpg" alt="">
+                <h3>hamburguesa con tocino y queso</h3>
+                
+                <div class="price">Bs18.00 <span>Bs23.00</span></div>
+                <a href="#" class="btn">Encargar</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu4.jpg" alt="">
+                <h3>hamburguesa de texas</h3>
+               
+                <div class="price">Bs19.00 <span>Bs26.00</span></div>
+                <a href="#" class="btn"> Encargar</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu1.jpg" alt="">
+                <h3>hamburguesa con queso doble</h3>
+               
+                <div class="price">Bs18.00 <span>Bs23.00</span></div>
+                <a href="#" class="btn"> Encargar</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu3.jpg" alt="">
+                <h3>hamburguesa de tocino</h3>
+                
+                <div class="price">Bs18.00 <span>Bs23.00</span></div>
+                <a href="#" class="btn"> Encargar</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- menu end-->
+
+    <!-- parallex -->
+
+    <section class="parallex">
+        <img src="images/parallex-picture.png" alt="">
+    </section>
+
+    <!-- parallex end-->
+
+
+    <!-- dessert -->
+
+    <section class="dessert" id="dessert">
+
+        <h1 class="heading">Nuestro <span>postre</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/dessert1.jpg" alt="">
+                <h3>tarta de manzana</h3>
+               
+                <div class="price">Bs9.00 <span>Bs12.00</span></div>
+                <a href="#" class="btn">Encargar</a>
+            </div>
+
+            <div class="box">
+                <img src="images/dessert2.jpg" alt="">
+                <h3>Uno grande</h3>
+                
+                <div class="price">Bs11.00 <span>Bs14.00</span></div>
+                <a href="#" class="btn">Encargar</a>
+            </div>
+
+            <div class="box">
+                <img src="images/dessert3.jpg" alt="">
+                <h3>helado</h3>
+                
+                <div class="price">Bs19.00 <span>Bs25.00</span></div>
+                <a href="#" class="btn">Encargar</a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- dessert end-->
+
+
+   
+
+
+   
+
+    <!-- review end-->
+
+    <!-- order -->
+
+    <section class="order" id="order">
+
+        <h1 class="heading"> <span>Ordena</span> ahora</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/contact.gif" alt="">
+            </div>
+
+            <form action="">
+
+                <div class="inputBox">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="email" placeholder="Tu Correo">
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="Tu Numero">
+                    <input type="text" placeholder="Nombre de tu pedido">
+                </div>
+
+                <textarea placeholder="Tu direccion" cols="30" rows="10"></textarea>
+                <input type="submit" value="Enviar" class="btn">
+
+            </form>
+        </div>
+
+    </section>
+
+
+    <!-- order end -->
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Encuéntranos aquí</h3>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                   
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Contáctenos</h3>
+                <p>+591 687 415</p>
+               
+            </div>
+
+            <div class="box">
+                <h3>localización</h3>
+                <p>230 Points of the Pines Dr <br>
+                    Colorado Springs <br>
+                   
+                </p>
+            </div>
+
+        </div>
+
+        <div class="credit">Creado por <span>hola</span> |Todos los derechos reservados!</div>
+
+    </section>
+
+    <!-- footer end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
